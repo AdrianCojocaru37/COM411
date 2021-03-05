@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 
 print("Please choose and option from the menu:\n1-Nice message\n2-Area of a rectangle\n3-Area of triangle\n4-Times table")
 
@@ -28,6 +27,3 @@ elif option == 4:
     print("{}*{} = {}".format(n,i,n*i))
   else:
     print("There is no such option. Go to specsavers!")
-=======
-print("What is your name?")
->>>>>>> a1cef8e60fdd3a701b3a13b1c6766858d4b7ae2e
