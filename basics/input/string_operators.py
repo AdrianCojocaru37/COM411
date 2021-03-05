@@ -1,4 +1,3 @@
-
 print("Please enter the numer of lives.")
 number_lives =int(input())
 print("Please enter the energy level.")
