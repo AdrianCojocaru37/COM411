@@ -1,4 +1,3 @@
-
 print("What is your name human?")
 name = input()
 print("How old are you?")
