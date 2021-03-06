@@ -1,5 +1,3 @@
-
-
 print("Where should i look?")
 location = input()
 if( location == "in the bedroom"):
@@ -25,12 +23,3 @@ elif( location == "in the lab"):
     print("Found some tools but no baterry")
 else:
   print("I dont know where they are")
-
-
-
-
-
-
-
-
-
