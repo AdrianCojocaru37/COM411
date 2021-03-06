@@ -9,6 +9,3 @@ elif(first_number > second_number):
   print("Second number is smaller")
 else:
    print("Both numbers are equal")
-
-
-
