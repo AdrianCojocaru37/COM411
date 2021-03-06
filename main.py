@@ -1,11 +1,15 @@
 
-print("Please enter the activity to be performed")
-type_activity = input()
-if (type_activity == "calculate"):
-    print("Performing calculation")
+print("What direction i should paint?")
+direction = input()
+if(direction == "up") :
+  print("I am painting up")
+elif(direction == "down") :
+  print("\nI am printing down")
+elif(direction =="left"):
+  print("\nPainting left")
 else:
-  print("Performing activity..")
-print("Activity completed")
+  print("\nPrinting upward")
+print("\nI am painting in the any direction")
 
  
 
