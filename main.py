@@ -1,14 +1,15 @@
 
-print("Please enter the first number")
-first_number = input()
-print("Please enter second number")
-second_number = input()
-if(first_number < second_number):
-  print("The first numaber is the smallest")
-elif(first_number > second_number):
-  print("Second number is smaller")
+
+print("Hard or soft cover of the book you prefer?")
+type_cover = input()
+if( type_cover == "soft"):
+  print("Book is perfect bound")
+  bound = input()
+  if (bound == "yes"):
+    print("Soft covers perfect bound books are very popular")
 else:
-   print("Both numbers are equal")
+  print("Books with hard covers can be more expensive")
+
 
 
 
