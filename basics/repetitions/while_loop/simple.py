@@ -1,5 +1,3 @@
-
-
 #
 #iterations = 0
 #print("Starting iterations")
@@ -17,13 +15,3 @@ removed_cable = 0
 while( removed_cable < response):
   print("Remove cable")
   removed_cable =removed_cable + 1
-
-
-
-
-
-
-
-
-
-
