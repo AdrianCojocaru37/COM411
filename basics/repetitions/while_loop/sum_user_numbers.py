@@ -1,5 +1,3 @@
-
-
 print("How many numbers should i sum up?")
 num_to_add = int(input())
 summed = 0
