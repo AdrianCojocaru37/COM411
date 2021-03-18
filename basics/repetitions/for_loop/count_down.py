@@ -1,5 +1,3 @@
-
-
 print("How far from the cave?")
 
 distance = int(input())
