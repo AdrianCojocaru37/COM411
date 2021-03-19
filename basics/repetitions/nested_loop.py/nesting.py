@@ -1,5 +1,3 @@
-
-
 print("Please enter a sequence:")
 sequence = input()
 
