@@ -1,15 +1,10 @@
 
+print("How many rows should i have?")
+rows = int(input())
+print("How many colums should i have?")
+colums = int(input())
 
-
-print("What phrase do you see?")
-phrase = input()
-
-
-print("\nReversing...\nThe phrase is", end="")
-
-reversed = ""
-
-for letter in phrase:
-    reversed = letter + reversed
-
-print(reversed)
+for rows in range(0,1,1):
+  for colums in range(0,1,1):
+    print(":-)", end ="")
+print()
