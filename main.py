@@ -1,14 +1,3 @@
 
-def identify():
-  print("What do you see?")
-  answer_user = input()
-  
 
-
-  if(answer_user == "a large boulder"):
-    print("It is time to run")
-  else:
-    print("We will be fine")
-
-identify()
 
