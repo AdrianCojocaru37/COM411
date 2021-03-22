@@ -1,0 +1,31 @@
+
+
+
+
+
+
+def escape_by(plan):
+  
+
+  if( plan == "jumping over"):
+    print("We cannot escape that way!")
+  elif(plan=="running around"):
+    print("we cannot escape that way")
+  elif(plan =="going deeper"):
+    print("Moving too fast!!")
+  else:
+    print("Boulder is in the way")
+escape_by("jumping over")
+escape_by("running around")
+escape_by("going deeper")
+
+def climb_ladder(steps_remaining,steps_crossed):
+
+
+  if(steps_remaining > steps_crossed):
+    print("Still some way to go!")
+  else:
+    print("We are almost there")
+
+climb_ladder(5,2)
+climb_ladder(2,5)
