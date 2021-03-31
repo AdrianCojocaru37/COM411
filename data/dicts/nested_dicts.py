@@ -1,7 +1,3 @@
-
-
-
-
 def short_pattern():
   pattern = {"sequence":101,"occurrences":5}
   return(pattern)
@@ -17,9 +13,3 @@ def run():
   for key, value in dict.items():
     print(f"{key}: {value}")
 run()
-
-
-  
-
-  
-
