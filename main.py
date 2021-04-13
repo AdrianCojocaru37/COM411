@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def actors():
   real = input('Name: ')
   role = input('Role: ')
@@ -113,3 +114,19 @@ def imdb():
 
 
 
+=======
+def  directions():
+  directions = ["Move Forward", "Move Backward", "Turn Left", "Turn Right"]
+  return directions
+
+def menu():
+  print("Please select a direction:")
+  dirs = directions()
+  for index in range(len(dirs)):
+    print(f"{index}: {dirs[index]}")
+
+def run():
+  menu()
+
+run()
+>>>>>>> f904cb26d8fcab7607c18adf07b37de46dc0ff36
