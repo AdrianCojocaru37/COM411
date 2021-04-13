@@ -1,5 +1,3 @@
-
-
 # Ask user for eye character 
 print("Please enter eye character")
 eye = input() 
