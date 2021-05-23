@@ -30,8 +30,3 @@ def data():
     generate()
     print("Done!")
   run()
-
-
-
-
-
